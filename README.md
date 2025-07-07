@@ -38,7 +38,7 @@ Add the Service Provider into `config/app.php` like so:
 ```
 'providers' => [
     '...',
-    '\PrimitiveSense\LaravelRawSqsConnector\RawSqsServiceProvider'
+    '\AscentFunding\LaravelRawSqsConnector\RawSqsServiceProvider'
 ];
 ```
 
@@ -49,7 +49,7 @@ Create a new job like so:
 
 namespace App\Jobs;
 
-use PrimitiveSense\LaravelRawSqsConnector\RawSqsJob;
+use AscentFunding\LaravelRawSqsConnector\RawSqsJob;
 
 class ExampleRawSqsJob extends RawSqsJob
 {
