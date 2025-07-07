@@ -1,6 +1,6 @@
 <?php
 
-namespace PrimitiveSense\LaravelRawSqsConnector;
+namespace AscentFunding\LaravelRawSqsConnector;
 
 use Illuminate\Queue\QueueManager;
 use Illuminate\Support\ServiceProvider;

@@ -1,6 +1,6 @@
 <?php
 
-namespace PrimitiveSense\LaravelRawSqsConnector;
+namespace AscentFunding\LaravelRawSqsConnector;
 
 use Aws\Sqs\SqsClient;
 use Illuminate\Queue\Connectors\ConnectorInterface;

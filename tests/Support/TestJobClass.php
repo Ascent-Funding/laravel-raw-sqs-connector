@@ -2,7 +2,7 @@
 
 namespace Tests\Support;
 
-use PrimitiveSense\LaravelRawSqsConnector\RawSqsJob;
+use AscentFunding\LaravelRawSqsConnector\RawSqsJob;
 
 class TestJobClass extends RawSqsJob
 {

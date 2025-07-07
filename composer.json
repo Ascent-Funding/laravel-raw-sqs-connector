@@ -20,7 +20,7 @@
   },
   "autoload": {
     "psr-4": {
-      "PrimitiveSense\\LaravelRawSqsConnector\\": "src/"
+      "AscentFunding\\LaravelRawSqsConnector\\": "src/"
     }
   },
   "autoload-dev": {

@@ -3,8 +3,8 @@
 namespace Tests;
 
 use PHPUnit\Framework\TestCase;
-use PrimitiveSense\LaravelRawSqsConnector\RawSqsConnector;
-use PrimitiveSense\LaravelRawSqsConnector\RawSqsQueue;
+use AscentFunding\LaravelRawSqsConnector\RawSqsConnector;
+use AscentFunding\LaravelRawSqsConnector\RawSqsQueue;
 use Tests\Support\TestJobClass;
 
 class RawSqsConnectorTest extends TestCase
@@ -45,7 +45,7 @@ class RawSqsConnectorTest extends TestCase
     {
         $this->expectException(\InvalidArgumentException::class);
         $this->expectExceptionMessage(
-            'Raw SQS Connector - stdClass must be a subclass of PrimitiveSense\LaravelRawSqsConnector\RawSqsJob'
+            'Raw SQS Connector - stdClass must be a subclass of AscentFunding\LaravelRawSqsConnector\RawSqsJob'
         );
 
         $rawSqsConnector = new RawSqsConnector();

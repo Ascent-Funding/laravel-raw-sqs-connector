@@ -7,7 +7,7 @@ use Illuminate\Container\Container;
 use Illuminate\Queue\InvalidPayloadException;
 use Mockery;
 use PHPUnit\Framework\TestCase;
-use PrimitiveSense\LaravelRawSqsConnector\RawSqsQueue;
+use AscentFunding\LaravelRawSqsConnector\RawSqsQueue;
 use Tests\Support\TestJobClass;
 
 class RawSqsQueueTest extends TestCase

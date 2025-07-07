@@ -1,6 +1,6 @@
 <?php
 
-namespace PrimitiveSense\LaravelRawSqsConnector;
+namespace AscentFunding\LaravelRawSqsConnector;
 
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Queue\InteractsWithQueue;

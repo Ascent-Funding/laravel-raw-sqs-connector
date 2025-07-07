@@ -3,7 +3,7 @@
 namespace Tests;
 
 use PHPUnit\Framework\TestCase;
-use PrimitiveSense\LaravelRawSqsConnector\RawSqsJob;
+use AscentFunding\LaravelRawSqsConnector\RawSqsJob;
 
 class RawSqsJobTest extends TestCase
 {

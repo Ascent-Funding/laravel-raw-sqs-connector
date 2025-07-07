@@ -1,5 +1,5 @@
 <?php
-namespace PrimitiveSense\LaravelRawSqsConnector;
+namespace AscentFunding\LaravelRawSqsConnector;
 
 use Illuminate\Queue\InvalidPayloadException;
 use Illuminate\Queue\Jobs\SqsJob;
