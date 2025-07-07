@@ -28,7 +28,7 @@ This library was originally built to allow the submission of jobs from AWS Lambd
 To install:
 
 ```
-composer require primitivesense/laravel-raw-sqs-connector
+composer require ascent-funding/laravel-raw-sqs-connector
 ```
 
 ## How to use
